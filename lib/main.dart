@@ -24,6 +24,7 @@ class _MyAppState extends State<MyApp> {
     return ScopedModel<ProductsModel>(
       model: ProductsModel(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           brightness: Brightness.light,
           primarySwatch: Colors.deepOrange,
